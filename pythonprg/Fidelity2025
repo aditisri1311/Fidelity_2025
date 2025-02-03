@@ -1,0 +1,5 @@
+def f1():
+    def f2():
+        return "Hello"
+    return f2()
+print (f1()())
